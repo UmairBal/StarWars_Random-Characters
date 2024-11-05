@@ -49,7 +49,7 @@ class StarWars extends React.Component {
           <div>
             <img src={this.state.image} className='img' alt='somepoto'/>
             <h1>{this.state.name}</h1>
-            <p>{this.state.height} cm</p>
+            <p>{this.state.height} m</p>
             <p>HomeWorld: {this.state.homeworld}</p>
           
 
