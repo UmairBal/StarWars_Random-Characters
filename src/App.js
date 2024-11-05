@@ -23,7 +23,7 @@ class StarWars extends React.Component {
   
   getNewCharacter() {
     const randomChar = Math.floor(Math.random() * 100)
-    const url = `https://api.allorigins.win/get?url=https://raw.githubusercontent.com/akabab/starwars-api/master/api/id/${randomChar}.json`;
+    const url = `https://corsproxy.io/?https://raw.githubusercontent.com/akabab/starwars-api/master/api/id/${randomChar}.json`;
     
     fetch (url)
       .then (response => response.json())
